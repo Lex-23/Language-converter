@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "language converter"
+version = "0.1.0"
+description = ""
+authors = ["Aliaksei Valenta <aliaksei.valenta.2022@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+deep-translator = "^1.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
