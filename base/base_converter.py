@@ -4,7 +4,6 @@ class BaseLanguageConverter:
     As an optional feature, there is feature for translating text to other two.
     Main goal: get text in original language and return transcript and translated text.
     """
-    LANG_DATA = {}
 
     def __init__(self, text: str):
         self._text = text.lower()

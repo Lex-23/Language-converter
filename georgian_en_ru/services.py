@@ -17,8 +17,8 @@ def transcript_georgian(text, lang_key, langs_map=LANGS_MAP, transcript_data=GEO
     return transcript(text, lang_key, langs_map, transcript_data)
 
 
-def translate_georgian(text, key):
-    return google_translate(source_key='ka', target_key=key, text=text)
+def translate_georgian(text, lang_key):
+    return google_translate(source_key='ka', target_key=lang_key, text=text)
 
 
 def translate_to_georgian(text):

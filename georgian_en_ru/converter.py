@@ -11,7 +11,7 @@ class GeorgianEnRuConverter(BaseLanguageConverter):
         return transcript_georgian(text=self._text, lang_key=key)
 
     def _translate_to(self, key):
-        return translate_georgian(text=self._text, key=key)
+        return translate_georgian(text=self._text, lang_key=key)
 
     @property
     def convert(self):
